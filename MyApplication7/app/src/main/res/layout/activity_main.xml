@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#37F1EB"
+        android:text="Button"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="#052BFF"
+        android:text="Button"
+        android:textColor="#FA0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="284dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="10dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF9800"
+            android:text="Button"
+            android:textColor="#EA0F5C" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="10dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="500dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FF5722"
+            android:text="Button"
+            android:textColor="#FFE139" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="10dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="100dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F44336"
+            android:text="Button"
+            android:textColor="#00A9F5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_weight="1"
+            android:backgroundTint="#03C6B4"
+            android:text="Button"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_weight="1"
+            android:backgroundTint="#0027FF"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B5A83A"
+            android:text="Button" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
